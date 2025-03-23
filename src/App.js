@@ -1,6 +1,6 @@
 
 // import './App.css';
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import logo from "../src/assets/educorp-logo.png";
 import "../src/assets/styles.css"
 
