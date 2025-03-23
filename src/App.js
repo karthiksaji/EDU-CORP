@@ -1,7 +1,7 @@
 
 // import './App.css';
 import React, { useState, useEffect } from "react";
-// import logo from "../assets/educorp-logo.png";
+import logo from "../src/assets/educorp-logo.png";
 import "../src/assets/styles.css"
 
 const EduCorpLanding = () => {
@@ -14,7 +14,7 @@ const EduCorpLanding = () => {
         <>
           <header className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-center py-10 relative">
             <div className="flex justify-center items-center mb-4">
-              {/* <img src={logo} alt="EduCorp Logo" className="w-24 h-24 sparkle-animation" /> */}
+              <img src={logo} alt="EduCorp Logo" className="w-25 h-10 sparkle-animation" />
             </div>
             <h1 className="text-4xl font-bold">Let's learn about new knowledge and abilities.</h1>
             <p className="mt-2 text-lg">Join EduCorp and explore a world of opportunities in online learning.</p>
